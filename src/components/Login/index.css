@@ -1,0 +1,59 @@
+.form-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-card{
+    min-width:300px;
+    padding:20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:15px;
+}
+
+.label{
+    color:#000000;
+    font-weight:600;
+    font-size:18px;
+}
+
+.input{
+    padding:8px;
+    width:90%;
+    margin-bottom:10px;
+    border-radius:10px;
+    border-width:1px solid #bfbfbf;
+    font-size:15px;
+}
+
+.form-card button{
+    width:100%;
+    padding:3%;
+    border-width:0;
+    border-radius:10px;
+    cursor: pointer;
+    background-color: #F7931E;
+    color:white;
+    font-size:20px;
+}
+
+.error{
+    color:red;
+    font-weight:bold;
+}
+
+.login-card{
+    text-align:center;
+}
+
+.tasty-logo-head{
+    color:#F7931E;
+    font-size:20px;
+    font-family: DM Sans;
+}
+
+.login{
+    font-size:20px;
+}
